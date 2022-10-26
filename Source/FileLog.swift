@@ -25,8 +25,8 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .debug,
             dateFormatter: logDateFormatter
-        ) { formattedText in
-            print(formattedText)
+        ) { _ in
+            // TODO:
         }
     }
 
@@ -36,8 +36,8 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .info,
             dateFormatter: logDateFormatter
-        ) { formattedText in
-            print(formattedText)
+        ) { _ in
+            // TODO:
         }
     }
 
@@ -47,8 +47,8 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .warn,
             dateFormatter: logDateFormatter
-        ) { formattedText in
-            print(formattedText)
+        ) { _ in
+            // TODO:
         }
     }
 
@@ -58,8 +58,8 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .error,
             dateFormatter: logDateFormatter
-        ) { formattedText in
-            print(formattedText)
+        ) { _ in
+            // TODO:
         }
     }
 }
