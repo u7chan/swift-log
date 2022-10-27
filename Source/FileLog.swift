@@ -8,13 +8,16 @@
 import Foundation
 
 public final class FileLog: LogProtocol {
+    private let showConsole: Bool
     private let logFileName: String
     private let logDateFormatter: (() -> String)?
 
     init(
+        showConsole: Bool = true,
         logFileName: String,
         logDateFormatter: (() -> String)? = nil
     ) {
+        self.showConsole = showConsole
         self.logFileName = logFileName
         self.logDateFormatter = logDateFormatter
     }
@@ -25,8 +28,11 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .debug,
             dateFormatter: logDateFormatter
-        ) { _ in
-            // TODO:
+        ) { formattedText in
+            if showConsole {
+                print(formattedText)
+            }
+            _ = try? FileWriter.write(fileName: logFileName, text: formattedText)
         }
     }
 
@@ -36,8 +42,11 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .info,
             dateFormatter: logDateFormatter
-        ) { _ in
-            // TODO:
+        ) { formattedText in
+            if showConsole {
+                print(formattedText)
+            }
+            _ = try? FileWriter.write(fileName: logFileName, text: formattedText)
         }
     }
 
@@ -47,8 +56,11 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .warn,
             dateFormatter: logDateFormatter
-        ) { _ in
-            // TODO:
+        ) { formattedText in
+            if showConsole {
+                print(formattedText)
+            }
+            _ = try? FileWriter.write(fileName: logFileName, text: formattedText)
         }
     }
 
@@ -58,8 +70,11 @@ public final class FileLog: LogProtocol {
             text: text,
             logLevel: .error,
             dateFormatter: logDateFormatter
-        ) { _ in
-            // TODO:
+        ) { formattedText in
+            if showConsole {
+                print(formattedText)
+            }
+            _ = try? FileWriter.write(fileName: logFileName, text: formattedText)
         }
     }
 }

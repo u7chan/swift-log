@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC92753B290AD85E00A9FCCA /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC92753A290AD85D00A9FCCA /* TestUtils.swift */; };
 		ACFBEA9A29096FA500728373 /* SwiftLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFBEA9129096FA500728373 /* SwiftLog.framework */; };
 		ACFBEAAC290978E200728373 /* LogProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEAAB290978E200728373 /* LogProtocol.swift */; };
 		ACFBEAAE2909790A00728373 /* ConsoleLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEAAD2909790A00728373 /* ConsoleLog.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC92753A290AD85D00A9FCCA /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 		ACFBEA9129096FA500728373 /* SwiftLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFBEA9929096FA500728373 /* SwiftLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFBEAAB290978E200728373 /* LogProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogProtocol.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				ACFBEAB329097EB400728373 /* ConsoleLogTests.swift */,
 				ACFBEAC129098C1300728373 /* FileLogTests.swift */,
 				ACFBEABF2909892000728373 /* FileWriterTests.swift */,
+				AC92753A290AD85D00A9FCCA /* TestUtils.swift */,
 			);
 			path = SwiftLogTests;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				ACFBEAB429097EB400728373 /* ConsoleLogTests.swift in Sources */,
 				ACFBEAB62909801900728373 /* LogCoreTests.swift in Sources */,
 				ACFBEAC229098C1300728373 /* FileLogTests.swift in Sources */,
+				AC92753B290AD85E00A9FCCA /* TestUtils.swift in Sources */,
 				ACFBEAC02909892000728373 /* FileWriterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

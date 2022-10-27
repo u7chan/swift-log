@@ -37,24 +37,3 @@ final class FileWriterTests: XCTestCase {
         XCTAssertEqual("", actualFilePath)
     }
 }
-
-// Test Utils
-
-private func readFileText(_ filePath: String) -> String {
-    return try! String(contentsOfFile: filePath, encoding: .utf8)
-}
-
-private func cleanupLogs() {
-    let ext = ".log"
-    let directory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
-    let fileManager = FileManager.default
-    let items = try! fileManager.contentsOfDirectory(atPath: directory)
-    for item in items {
-        if !item.hasSuffix(ext) {
-            continue
-        }
-        let filePath = "\(directory)/\(item)"
-        print("Found Log: \(filePath)")
-        try! fileManager.removeItem(atPath: filePath)
-    }
-}
