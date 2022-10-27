@@ -15,8 +15,8 @@
 		ACFBEAB429097EB400728373 /* ConsoleLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEAB329097EB400728373 /* ConsoleLogTests.swift */; };
 		ACFBEAB62909801900728373 /* LogCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEAB52909801900728373 /* LogCoreTests.swift */; };
 		ACFBEABC2909860400728373 /* FileLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEABB2909860400728373 /* FileLog.swift */; };
-		ACFBEABE2909872900728373 /* FileWritter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEABD2909872900728373 /* FileWritter.swift */; };
-		ACFBEAC02909892000728373 /* FileWritterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEABF2909892000728373 /* FileWritterTests.swift */; };
+		ACFBEABE2909872900728373 /* FileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEABD2909872900728373 /* FileWriter.swift */; };
+		ACFBEAC02909892000728373 /* FileWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEABF2909892000728373 /* FileWriterTests.swift */; };
 		ACFBEAC229098C1300728373 /* FileLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBEAC129098C1300728373 /* FileLogTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +40,8 @@
 		ACFBEAB329097EB400728373 /* ConsoleLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleLogTests.swift; sourceTree = "<group>"; };
 		ACFBEAB52909801900728373 /* LogCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCoreTests.swift; sourceTree = "<group>"; };
 		ACFBEABB2909860400728373 /* FileLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLog.swift; sourceTree = "<group>"; };
-		ACFBEABD2909872900728373 /* FileWritter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWritter.swift; sourceTree = "<group>"; };
-		ACFBEABF2909892000728373 /* FileWritterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWritterTests.swift; sourceTree = "<group>"; };
+		ACFBEABD2909872900728373 /* FileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWriter.swift; sourceTree = "<group>"; };
+		ACFBEABF2909892000728373 /* FileWriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWriterTests.swift; sourceTree = "<group>"; };
 		ACFBEAC129098C1300728373 /* FileLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLogTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,7 @@
 				ACFBEAAF2909795B00728373 /* LogCore.swift */,
 				ACFBEAAD2909790A00728373 /* ConsoleLog.swift */,
 				ACFBEABB2909860400728373 /* FileLog.swift */,
-				ACFBEABD2909872900728373 /* FileWritter.swift */,
+				ACFBEABD2909872900728373 /* FileWriter.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 				ACFBEAB52909801900728373 /* LogCoreTests.swift */,
 				ACFBEAB329097EB400728373 /* ConsoleLogTests.swift */,
 				ACFBEAC129098C1300728373 /* FileLogTests.swift */,
-				ACFBEABF2909892000728373 /* FileWritterTests.swift */,
+				ACFBEABF2909892000728373 /* FileWriterTests.swift */,
 			);
 			path = SwiftLogTests;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 				ACFBEAAE2909790A00728373 /* ConsoleLog.swift in Sources */,
 				ACFBEAB229097A6800728373 /* LogLevel.swift in Sources */,
 				ACFBEAB02909795B00728373 /* LogCore.swift in Sources */,
-				ACFBEABE2909872900728373 /* FileWritter.swift in Sources */,
+				ACFBEABE2909872900728373 /* FileWriter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +231,7 @@
 				ACFBEAB429097EB400728373 /* ConsoleLogTests.swift in Sources */,
 				ACFBEAB62909801900728373 /* LogCoreTests.swift in Sources */,
 				ACFBEAC229098C1300728373 /* FileLogTests.swift in Sources */,
-				ACFBEAC02909892000728373 /* FileWritterTests.swift in Sources */,
+				ACFBEAC02909892000728373 /* FileWriterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
